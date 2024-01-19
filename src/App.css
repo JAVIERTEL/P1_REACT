@@ -1,0 +1,56 @@
+#main {
+  text-align: center;
+}
+#cabecera {
+  background-color: #282c34;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mensaje {
+  color: #61dafb;
+  margin-left: 20px;
+}
+.logo {
+  width: 70px;
+  animation: App-logo-spin infinite 20s linear;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+
+#card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+#card li {
+  list-style-type: none;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#card li p img {
+  width: 80px;
+  height: 80px;
+}
+
+#botonsearch {
+  margin-right: 20px;
+}
